@@ -1,0 +1,65 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: skyblue;
+			position: relative;
+			animation-name: sai;
+			animation-duration : 3s;
+			animation-delay: 2s;
+			animation-iteration-count: 3;
+			animation-direction: alternate;
+			animation-timing-function: ease-out;
+			animation-fill-mode: both;
+
+		}
+		@keyframes sai{
+			1%{
+				width: 100px;
+				height: 100px;
+				top : 0px;
+				left : 0px;
+				background-color: blue;
+			}
+			25%{
+				width: 100px;
+				height: 100px;
+				top : 0px;
+				left : 100px;
+				background-color: greenyellow;
+			}
+			50%{
+				width: 100px;
+				height: 100px;
+				top : 100px;
+				left : 100px;
+				background-color: yellow;
+			}
+			75%{
+				width: 100px;
+				height: 100px;
+				top : 100px;
+				left : 0px;
+				background-color: indianred;
+			}
+			100%{
+				width: 100px;
+				height: 100px;
+				top : 0px;
+				left : 0px;
+				background-color: orange;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div>
+	</div>
+</body>
+</html>
