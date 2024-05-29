@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Home Page </title>
+		<meta name = "author" content="Sai Vardhan">
+		<meta name="description" content="Basic Project">
+		<meta name="keywords" content = "Navigation,html">
+		<meta name="revised" content = "Saivardhan, 21/05/2024">
+		<meta name = "viewport" content = "width=divice-width,initial-scale=1.0">
+		<style>
+			.x{
+				border : solid;
+				height : 100px;
+				width : 100px;
+				border-radius: 100px;
+				position : absolute;
+				top : 5px;
+				right : 5px;
+				animation-name: animation2;
+				animation-delay: 1s;
+				animation-duration: 1s;
+				animation-iteration-count: infinite;
+			}
+			@keyframes animation2{
+				from{
+					height : 100px;
+					width : 100px;
+				}
+				to{
+					height : 200px;
+					width : 200px;
+				}
+			}
+			.x:hover{
+				animation-name: animation3;
+				animation-delay: 1s;
+				animation-duration: 1s;
+				animation-iteration-count: infinite;
+			}
+			@keyframes animation3{
+				from{
+					height : 100px;
+					width : 100px;
+				}
+				to{
+					height : 100px;
+					width : 100px;
+				}
+			}
+			.x h3{
+				display: none;
+			}
+			img{
+				height: 100%;
+				width : 100%;
+				border-radius: 100%;
+			}
+			.x h3{
+				height : 50px;
+				width : 300px;
+				border : solid;
+				background-color: skyblue;
+				border-radius: 10px;
+				padding : 30px;
+				text-align: center;
+				position : relative;
+				right : 300px;
+			}
+			.x:hover h3{
+				display: block;
+				animation-name : animation1;
+				animation-delay: 1s;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+			}
+			@keyframes animation1{
+				from{
+					background-color: lightseagreen;
+				}
+				to{
+					background-color: lightslategrey;
+					color: white;
+				}
+			}
+			.xyz{
+				display: grid;
+				border: solid;
+				border-radius: 50px;
+				background-color: lightpink;
+				grid-template-rows: 140px 400px 100px;
+				animation-name: sai;
+				animation-duration: 3s;
+				animation-delay: 0.2s;
+				animation-iteration-count: infinite;
+			}
+			.xyz div{
+				text-align: center;
+			}
+			.mno{
+				display: grid;
+				grid-template-columns: 50% 50%;
+			}
+			body{
+				background-color: black;
+			}
+			@keyframes sai{
+				from{
+					background-color: lightseagreen;
+				}
+				to{
+					background-color: lightgoldenrodyellow;
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="x">
+			<img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg?size=338&ext=jpg&ga=GA1.1.2082370165.1716854400&semt=ais_user">
+			<h3>Website : www.codegnan.com 
+				<br>
+				Contact : +91 1234567890
+			</h3>
+
+		</div>
+		
+		<div class="xyz">
+			<div>
+				<h1> Welcome to Register Page !</h1>
+				<a href="index.html">Home Page</a>
+			</div>
+			<div class="mno">
+				<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/r9SHXfmebcw?si=SZWbrzJ3EHLBS3sf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/YzybXE3zl1Q?si=axFuJz6pOYubAx8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div>
+				<h3> &copy; CopyRights Reserved </h3>
+			</div>
+		</div>
+	</body>
+</html>
