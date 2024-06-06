@@ -1,0 +1,24 @@
+let x = "Sai vardhan";
+console.log(x.length);
+console.log(x[4]);
+let a = "Sai ";
+let b = "Vardhan";
+var c = a.concat(b);
+console.log(c);
+
+let z = "Sai Vardhan";
+console.log(z.charAt(4));
+console.log(z.charCodeAt(4));
+console.log(z.startsWith("Sai"));
+console.log(z.endsWith("n"));
+console.log(z.includes("i V"));
+console.log(z.toLowerCase());
+console.log(z.toUpperCase());
+console.log(z.indexOf("a"));
+console.log(z.lastIndexOf("a"));
+console.log(z.repeat(3));
+console.log(z.replace("Sai","T"));
+let y = "  abc   ";
+console.log(y);
+console.log(y.trim());
+console.log(z.split(" "));
