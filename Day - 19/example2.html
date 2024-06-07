@@ -1,0 +1,18 @@
+<!-- Document.get element by id -->
+<!doctype html>
+<html>
+    <head>
+        <title>Elementbyid</title>
+    </head>
+    <body>
+        <input type="text" id="abc">
+        <button onclick="getvalue()">Click me</button>
+        <script>
+            function getvalue(){
+                var x = document.querySelector("#abc");
+                var z = x.value;
+                console.log(z);
+            }
+        </script>
+    </body>
+</html>
