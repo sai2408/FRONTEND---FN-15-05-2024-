@@ -1,0 +1,44 @@
+@media only screen{
+    .x{
+        display : grid;
+        grid-template-rows: auto;
+        border-color: blue;
+        position : absolute;
+        top : 0%;
+        left : 5%;
+        height : 50%;
+        width : auto;
+        color: white;
+        position: sticky;
+    }
+    body{
+        background-image: url("https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c29saWQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+
+    }
+    .x div:hover{
+        font-size: 20px;
+        color: white;
+        padding : 20px;
+        box-shadow: 1px 1px 3px red;
+        width : 50px;
+
+    }
+    img{
+        border-radius: 50px;
+        height : 100%;
+        width: 100%;
+    }
+    
+}
+@media (max-width:400px){
+    .x{
+        border: dashed;
+        border-color: blue;
+        position : absolute;
+        height : 5%;
+        width : 90%;
+        top : 94%;
+        display : grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
